@@ -1,0 +1,53 @@
+[project]
+name = "haze"
+version = "0.1.0"
+description = "Lightning-Fast Magic Link Authentication"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [{ name = "Adarsh Gourab Mahalik", email = "adarshgourabmahalik@outlook.com" }]
+license = { file = "LICENSE.md" }
+keywords = ["authentication", "magic-link", "jwt", "security", "web"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Operating System :: OS Independent",
+    "Topic :: Security :: Cryptography",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dependencies = ["cryptography>=3.4.0"]
+
+# install what you want
+[project.optional-dependencies]
+jwt = ["pyjwt>=2.3.0"]
+msgpack = ["msgpack>=1.0.3"]
+json = ["orjson>=3.6.0"]
+nanoid = ["nanoid>=2.0.0"]
+full = [
+    "pyjwt>=2.3.0",
+    "msgpack>=1.0.3",
+    "orjson>=3.6.0",
+    "nanoid>=2.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/itsmeadarsh2008/haze"
+Repository = "https://github.com/itsmeadarsh2008/haze"
+Issues = "https://github.com/itsmeadarsh2008/haze/issues"
+Documentation = "https://github.com/itsmeadarsh2008/haze/blob/main/README.md"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/haze"]
+
+[tool.hatch.build.targets.sdist]
+include = ["src/haze"]
