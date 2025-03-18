@@ -1,5 +1,5 @@
 [project]
-name = "haze"
+name = "haze-auth"
 version = "0.1.1"
 description = "Lightning-Fast Magic Link Authentication"
 readme = "README.md"
