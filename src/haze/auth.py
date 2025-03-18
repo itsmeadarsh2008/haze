@@ -3,15 +3,13 @@ Core authentication logic for Haze
 """
 
 import time
-import urllib.parse
-from typing import Any, Callable, Dict, List, Optional, Union
+from typing import Any, Callable, Dict
 
 from .exceptions import (
     ConfigError,
     ExpiredTokenError,
     InvalidTokenError,
     RateLimitError,
-    StorageError,
 )
 from .id import create_nanoid, create_uuid
 from .jwt import JWT

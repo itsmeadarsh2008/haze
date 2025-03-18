@@ -4,7 +4,7 @@ Utility functions for Haze
 
 import importlib
 import time
-from typing import Any, Callable, Dict, Optional
+from typing import Any, Dict, Optional
 
 from .exceptions import MissingDependencyError
 

@@ -2,10 +2,9 @@
 JWT implementation for Haze
 """
 
-import time
-from typing import Any, Dict, Optional, Union
+from typing import Any, Dict, Optional
 
-from .exceptions import ExpiredTokenError, InvalidTokenError, MissingDependencyError
+from .exceptions import ExpiredTokenError, InvalidTokenError
 from .utils import import_optional, now
 
 

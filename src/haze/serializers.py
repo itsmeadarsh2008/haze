@@ -2,7 +2,7 @@
 Serialization utilities for Haze
 """
 
-from typing import Any, Dict
+from typing import Any
 
 from .exceptions import MissingDependencyError
 from .utils import import_optional
