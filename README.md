@@ -1,6 +1,11 @@
 <div align="center">
 <img src="https://gist.githubusercontent.com/itsmeadarsh2008/a8b8598c207f00e2795238012d2c5e61/raw/2eeff30b77fff86c12e1a01a60016f0b5d709216/haze.svg" width="200" height="200">
 <h1>Haze - Lightning-Fast Magic Link Authentication</h1>
+<img alt="PyPI - Downloads" src="https://img.shields.io/pypi/dm/haze-auth">
+<img alt="GitHub Sponsors" src="https://img.shields.io/github/sponsors/itsmeadarsh2008">
+<img alt="PyPI - Python Version" src="https://img.shields.io/pypi/pyversions/haze-auth">
+<img alt="PyPI - Version" src="https://img.shields.io/pypi/v/haze-auth">
+<img alt="Star" src="https://img.shields.io/badge/Please%20Give%20A%20Star%20%E2%AD%90-30323D">
 </div>
 
 Haze is a high-performance, easy-to-use Magic Link Authentication service for Python applications. Generate secure authentication links that work across devices with minimal setup.
