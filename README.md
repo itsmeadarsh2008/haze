@@ -23,9 +23,11 @@ Haze is a high-performance, easy-to-use Magic Link Authentication service for Py
 
 ## Installation
 
-Since Haze is not available on PyPI, you can install it directly from GitHub:
+Since Haze is now available on PYPI, you can use any package manager you want.
 
 ```bash
+pip install haze-auth[full]
+
 # Basic installation (install jwt later, with different package version)
 pip install git+https://github.com/itsmeadarsh2008/haze.git@main
 
